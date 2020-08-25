@@ -1,6 +1,6 @@
 const express= require('express')
 const app=express()
-const PORT=Number(process.env.PORT || 5000)
+const PORT=process.env.PORT || 5000
 const mongoose=require('mongoose')
 const config=require('./config/keys')
 const bodyParser=require('body-parser')
